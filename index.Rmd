@@ -44,7 +44,7 @@ library(ggplot2)
 
 ## Metadata Analyzer
 
-```{r, warning=FALSE}
+```{r, warning=FALSE, fig.width=12, fig.height=5}
 ggplot(data = dateMeta, aes(x = Date, y = Num)) + geom_line() + stat_smooth() + ggtitle("Dataset update")
 ```
 
@@ -52,7 +52,7 @@ ggplot(data = dateMeta, aes(x = Date, y = Num)) + geom_line() + stat_smooth() + 
 
 ## Metadata Analyzer
 
-```{r, warning=FALSE}
+```{r, warning=FALSE, fig.width=12, fig.height=5}
 ggplot(data = datePubs, aes(x = Date, y = Num)) + geom_line() + stat_smooth() + ggtitle("Publication update")
 ```
 
