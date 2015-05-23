@@ -46,22 +46,109 @@
     <h2>Metadata Analyzer</h2>
   </hgroup>
   <article data-timings="">
-    
+    <p>所有資料集
+<img src="assets/img/allmeta.png" alt=""></p>
+
   </article>
   <!-- Presenter Notes -->
 </slide>
 
 <slide class="" id="slide-2" style="background:;">
+  <hgroup>
+    <h2>Metadata Analyzer</h2>
+  </hgroup>
   <article data-timings="">
-    <p>##</p>
+    <pre><code>## [1] &quot;2015-05-23 16:39:01&quot; &quot;2015-05-23 16:36:00&quot; &quot;2015-05-23 16:35:48&quot;
+## [4] &quot;2015-05-23 16:35:23&quot; &quot;2015-05-23 16:35:11&quot; &quot;2015-05-23 16:34:00&quot;
+</code></pre>
+
+<pre><code>## [1] &quot;2015-05-19 16:07:49&quot; &quot;2015-05-18 18:21:50&quot; &quot;2015-05-18 10:16:18&quot;
+## [4] &quot;2015-05-18 10:13:33&quot; &quot;2015-05-14 16:55:31&quot; &quot;2015-05-14 16:14:08&quot;
+</code></pre>
+
+<pre><code>## &#39;data.frame&#39;:    456 obs. of  1 variable:
+##  $ Date: Date, format: &quot;2015-05-23&quot; &quot;2015-05-23&quot; ...
+</code></pre>
+
+<pre><code>## Source: local data frame [6 x 2]
+## 
+##         Date Num
+## 1 2015-03-02   1
+## 2 2015-03-06  43
+## 3 2015-03-10  19
+## 4 2015-03-11  11
+## 5 2015-03-12  33
+## 6 2015-03-13   5
+</code></pre>
 
   </article>
   <!-- Presenter Notes -->
 </slide>
 
 <slide class="" id="slide-3" style="background:;">
+  <hgroup>
+    <h2>Metadata Analyzer</h2>
+  </hgroup>
   <article data-timings="">
-    
+    <pre><code class="r">ggplot(data = dateMeta, aes(x = Date, y = Num)) + geom_line() + stat_smooth() + ggtitle(&quot;Dataset update&quot;)
+</code></pre>
+
+<pre><code>## geom_smooth: method=&quot;auto&quot; and size of largest group is &lt;1000, so using loess. Use &#39;method = x&#39; to change the smoothing method.
+</code></pre>
+
+<p><img src="assets/fig/unnamed-chunk-2-1.png" alt="plot of chunk unnamed-chunk-2"> </p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-4" style="background:;">
+  <hgroup>
+    <h2>Metadata Analyzer</h2>
+  </hgroup>
+  <article data-timings="">
+    <pre><code class="r">ggplot(data = datePubs, aes(x = Date, y = Num)) + geom_line() + stat_smooth() + ggtitle(&quot;Publication update&quot;)
+</code></pre>
+
+<pre><code>## geom_smooth: method=&quot;auto&quot; and size of largest group is &lt;1000, so using loess. Use &#39;method = x&#39; to change the smoothing method.
+</code></pre>
+
+<p><img src="assets/fig/unnamed-chunk-3-1.png" alt="plot of chunk unnamed-chunk-3"> </p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-5" style="background:;">
+  <hgroup>
+    <h2>Ooops</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><img src="assets/img/topten.png" alt=""></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-6" style="background:;">
+  <hgroup>
+    <h2>Ooops</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><img src="assets/img/oops.png" alt=""></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-7" style="background:;">
+  <hgroup>
+    <h2>hackbox</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>視覺化分析
+<img src="assets/img/vizdemo.png" alt=""></p>
+
   </article>
   <!-- Presenter Notes -->
 </slide>
@@ -78,14 +165,38 @@
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=2 title=''>
+        data-slide=2 title='Metadata Analyzer'>
          2
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=3 title=''>
+        data-slide=3 title='Metadata Analyzer'>
          3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Metadata Analyzer'>
+         4
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=5 title='Ooops'>
+         5
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=6 title='Ooops'>
+         6
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=7 title='hackbox'>
+         7
       </a>
     </li>
   </ul>

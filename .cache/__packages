@@ -1,0 +1,11 @@
+base
+jsonlite
+ggplot2
+dplyr
+slidify
+XML
+NLP
+tm
+tmcn
+rJava
+Rwordseg
