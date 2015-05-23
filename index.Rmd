@@ -13,7 +13,6 @@ knit        : slidify::knit2slides
 
 ## Metadata Analyzer
 
-所有資料集
 ![](assets/img/allmeta.png)
 
 ---
@@ -72,5 +71,4 @@ ggplot(data = datePubs, aes(x = Date, y = Num)) + geom_line() + stat_smooth() + 
 
 ## hackbox
 
-視覺化分析
 ![](assets/img/vizdemo.png)
